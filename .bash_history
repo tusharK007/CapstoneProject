@@ -24,3 +24,27 @@ ls
 sudo rm -rf website
 ls
 sudo java -jar agent.jar -jnlpUrl http://18.224.19.250:8080/computer/test/slave-agent.jnlp -secret 2e11811538b7908d29f996c424deaf34fba85cd2a08895ba1207f160b70bac28 -workDir "/home/ubuntu/"
+ls
+sudo git branch
+sudo git init
+sudo git branch
+sudo git branch develop
+ls
+sudo git branch
+cd /home/ubuntu
+ls
+sudo git add .
+sudo git status
+sudo git -m "initial commit"
+sudo git commit -m "initial commit"
+sudo git branch
+sudo git branch develop
+sudo git branch
+sudo git push origin master
+git pull origin master
+sudo git pull origin master
+sudo git status
+sudo git push origin master
+sudo git push --help
+sudo git push -f origin master
+sudo java -jar agent.jar -jnlpUrl http://18.224.19.250:8080/computer/test/slave-agent.jnlp -secret 2e11811538b7908d29f996c424deaf34fba85cd2a08895ba1207f160b70bac28 -workDir "/home/ubuntu/"
