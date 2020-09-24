@@ -1,2 +1,2 @@
-FROM /hshar/webapp
+FROM hshar/webapp
 COPY . /var/www/html
